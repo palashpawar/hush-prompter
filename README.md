@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/icon.png" width="160" alt="Hush icon"></p>
+
 # Hush
 
 A notch teleprompter for macOS, in the spirit of [Moody](https://moodyteleprompter.com/). Your script sits
@@ -28,3 +30,5 @@ Needs only the Xcode Command Line Tools.
 ```
 
 `SDK=/path/to/MacOSX.sdk ./build.sh` overrides the SDK if your compiler and default SDK don't match.
+
+The app icon is drawn in code: `swift scripts/make_icon.swift assets/icon.png`.
